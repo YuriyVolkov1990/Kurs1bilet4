@@ -20,5 +20,9 @@ public class Main {
             }
         }
         System.out.println(Arrays.toString(array));
+        byte[] bytesForString = {1,2,3};
+        String stringFromBytes = new String(bytesForString);
+        System.out.println(stringFromBytes);
+
     }
 }
