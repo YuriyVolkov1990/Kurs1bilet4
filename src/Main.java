@@ -16,8 +16,9 @@ public class Main {
         for (int i=0;i < array.length-1;i++) {
             boolean check=array[i].equals(array[i+1]);
             if (check) {
-
+                array[i + 1] = "";
             }
         }
+        System.out.println(Arrays.toString(array));
     }
 }
